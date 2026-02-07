@@ -30,30 +30,95 @@ namespace UserAuthApi.Controllers
         [HttpPost("login")]
         public IActionResult Login([FromBody] LoginRequest request)
         {
-            bool isValid = false;
+            if (request == null || string.IsNullOrEmpty(request.Email))
+                return BadRequest(new { success = false, message = "Invalid request" });
 
+            // Use a unified way to store the found ID and Role
+            string? foundId = null;
+            string? foundRole = null;
+
+            // 1. Check Customer Table
             if (request.Role == "customer")
             {
-                isValid = _context.Customers.Any(c => c.CMailId == request.Email && c.CPassword == request.Password);
+                var user = _context.Customers.FirstOrDefault(c => c.CMailId == request.Email && c.CPassword == request.Password);
+                if (user != null)
+                {
+                    foundId = user.CustomerId;
+                    foundRole = "customer";
+                }
             }
-            
+            // 2. Check Dealer Table
             else if (request.Role == "dealer")
             {
-                // These must match the property names in DealerInfo.cs
-                isValid = _context.Dealers.Any(d => d.DMailId == request.Email && d.DPassword == request.Password);
+                var dealer = _context.Dealers.FirstOrDefault(d => d.DMailId == request.Email && d.DPassword == request.Password);
+                if (dealer != null)
+                {
+                    foundId = dealer.DealerId;
+                    foundRole = "dealer";
+                }
             }
+            // 3. Check Admin Table
             else if (request.Role == "admin")
             {
-                // Replace with your Admin table logic
-                isValid = _context.Admins.Any(a => a.AMailId == request.Email && a.APassword == request.Password);
+                var admin = _context.Admins.FirstOrDefault(a => a.AMailId == request.Email && a.APassword == request.Password);
+                if (admin != null)
+                {
+                    foundId = admin.AdminId;
+                    foundRole = "admin";
+                }
             }
 
-            if (isValid)
+            // 4. Final Response Logic
+            if (foundId != null)
             {
-                return Ok(new { success = true });
+                return Ok(new
+                {
+                    success = true,
+                    customerId = foundId, // Angular looks for this key to save to localStorage
+                    role = foundRole
+                });
             }
 
+            // If we reached here, no match was found in any table
             return Unauthorized(new { success = false, message = "Invalid credentials" });
+        }
+
+
+        [HttpPost("book-service")]
+        public IActionResult BookService([FromBody] Booking booking)
+        {
+            if (booking == null) return BadRequest();
+            _context.Bookings.Add(booking);
+            _context.SaveChanges();
+            return Ok(new { message = "Booking successful" });
+        }
+
+        [HttpGet("track-service/{customerId}")]
+        public IActionResult GetLatestBooking(string customerId)
+        {
+            // Fetch the most recent booking for this specific customer
+            var booking = _context.Bookings
+                .Where(b => b.CustomerId == customerId)
+                .OrderByDescending(b => b.CreatedAt)
+                .FirstOrDefault();
+
+            if (booking == null)
+            {
+                return NotFound(new { message = "No booking found for this customer." });
+            }
+
+            return Ok(booking);
+        }
+
+        [HttpGet("service-history/{customerId}")]
+        public IActionResult GetServiceHistory(string customerId)
+        {
+            var history = _context.Bookings
+                .Where(b => b.CustomerId == customerId && b.BookingStatus == "COMPLETED")
+                .OrderByDescending(b => b.Slot)
+                .ToList();
+
+            return Ok(history);
         }
     }
 }
