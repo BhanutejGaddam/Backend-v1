@@ -42,12 +42,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -56,7 +52,7 @@
               "RelativeDocumentMoniker": "Migrations\\20260207053447_UpdateToAutoConnect.cs",
               "ToolTip": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\UserAuthApi\\Migrations\\20260207053447_UpdateToAutoConnect.cs",
               "RelativeToolTip": "Migrations\\20260207053447_UpdateToAutoConnect.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-07T05:34:48.138Z",
               "EditorCaption": ""
@@ -71,8 +67,7 @@
               "RelativeToolTip": "Models\\CustomerInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T05:27:57.825Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-07T05:27:57.825Z"
             },
             {
               "$type": "Document",
@@ -84,8 +79,7 @@
               "RelativeToolTip": "Migrations\\20260206115804_InitialCreate.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAmwAoAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T11:58:05.038Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-06T11:58:05.038Z"
             },
             {
               "$type": "Document",
@@ -109,8 +103,7 @@
               "RelativeToolTip": "Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T11:50:48.72Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-06T11:50:48.72Z"
             },
             {
               "$type": "Document",
@@ -122,8 +115,7 @@
               "RelativeToolTip": "Controllers\\AuthController.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAQwBoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T11:54:02.84Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-06T11:54:02.84Z"
             },
             {
               "$type": "Document",
@@ -147,8 +139,11 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-02-06T11:42:14.368Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-06T11:42:14.368Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
             }
           ]
         }
