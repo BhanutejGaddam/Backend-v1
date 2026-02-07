@@ -1,0 +1,154 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\UserAuthApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\userauthapi\\migrations\\20260207053447_updatetoautoconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:migrations\\20260207053447_updatetoautoconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\userauthapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\userauthapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\userauthapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\userauthapi\\models\\customerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:models\\customerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\userauthapi\\migrations\\20260206115804_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:migrations\\20260206115804_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\userauthapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\userauthapi\\userauthapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:userauthapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20260207053447_UpdateToAutoConnect.cs",
+              "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\UserAuthApi\\Migrations\\20260207053447_UpdateToAutoConnect.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260207053447_UpdateToAutoConnect.cs",
+              "ToolTip": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\UserAuthApi\\Migrations\\20260207053447_UpdateToAutoConnect.cs",
+              "RelativeToolTip": "Migrations\\20260207053447_UpdateToAutoConnect.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T05:34:48.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomerInfo.cs",
+              "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\UserAuthApi\\Models\\CustomerInfo.cs",
+              "RelativeDocumentMoniker": "Models\\CustomerInfo.cs",
+              "ToolTip": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\UserAuthApi\\Models\\CustomerInfo.cs",
+              "RelativeToolTip": "Models\\CustomerInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T05:27:57.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20260206115804_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\UserAuthApi\\Migrations\\20260206115804_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260206115804_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\UserAuthApi\\Migrations\\20260206115804_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20260206115804_InitialCreate.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAmwAoAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T11:58:05.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\UserAuthApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\UserAuthApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABsAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T11:51:37.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\UserAuthApi\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\UserAuthApi\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T11:50:48.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\UserAuthApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\UserAuthApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T11:54:02.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserAuthApi.csproj",
+              "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\UserAuthApi\\UserAuthApi.csproj",
+              "RelativeDocumentMoniker": "UserAuthApi.csproj",
+              "ToolTip": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\UserAuthApi\\UserAuthApi.csproj",
+              "RelativeToolTip": "UserAuthApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-06T11:48:07.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\UserAuthApi\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\UserAuthApi\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-06T11:42:14.368Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
