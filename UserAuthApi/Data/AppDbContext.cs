@@ -9,6 +9,8 @@ namespace UserAuthApi.Data
 
         // Make sure this says <CustomerInfo> and NOT <User>
         public DbSet<CustomerInfo> Customers { get; set; }
+        public DbSet<DealerInfo> Dealers { get; set; }
+        public DbSet<AdminInfo> Admins { get; set; }
     }
 }
 
