@@ -1,5 +1,6 @@
 ﻿using System.Data;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using UserAuthApi.Data;
 using UserAuthApi.Models;
 
@@ -17,14 +18,47 @@ namespace UserAuthApi.Controllers
         }
 
         [HttpPost("register")]
-        public IActionResult Register([FromBody] CustomerInfo customer) // Change User to CustomerInfo
+        public IActionResult Register([FromBody] CustomerInfo customer)
         {
-            if (customer == null) return BadRequest();
+            if (customer == null)
+                return BadRequest(new { message = "Invalid customer data." });
 
-            _context.Customers.Add(customer); // Change _context.Users to _context.Customers
-            _context.SaveChanges();
+            // 1. Business Logic: Default to 'self' if no dealer is provided
+            if (string.IsNullOrWhiteSpace(customer.AddedByDealer))
+            {
+                customer.AddedByDealer = "self";
+            }
 
-            return Ok(new { message = "Registration Successful" });
+            // 2. Pre-check: Prevent duplicate Emails (Assuming Email is unique in your table)
+            if (_context.Customers.Any(c => c.CMailId == customer.CMailId))
+            {
+                return Conflict(new { message = "A user with this email already exists." });
+            }
+
+            try
+            {
+                _context.Customers.Add(customer);
+                _context.SaveChanges();
+                return Ok(new { message = "Registration Successful" });
+            }
+            catch (DbUpdateException ex)
+            {
+                // Handle database-level constraints (Foreign Keys, Unique Indexes)
+                var innerMessage = ex.InnerException?.Message ?? ex.Message;
+
+                // Log the full exception here for debugging
+                return BadRequest(new
+                {
+                    error = "Database Constraint Violation",
+                    details = innerMessage.Contains("FOREIGN KEY")
+                              ? "The associated Dealer or reference was not found."
+                              : "Could not save record due to database constraints."
+                });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { error = "Internal Server Error", details = ex.Message });
+            }
         }
 
         [HttpPost("login")]

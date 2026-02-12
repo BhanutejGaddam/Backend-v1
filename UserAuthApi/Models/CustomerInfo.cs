@@ -43,5 +43,8 @@ namespace UserAuthApi.Models
 
         [Column("loyalty_points")]
         public int LoyaltyPoints { get; set; } = 0;
+
+        [Column("added_by_dealer")]
+        public string AddedByDealer { get; set; } = "self";
     }
 }
