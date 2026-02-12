@@ -1,6 +1,8 @@
-﻿using System.Data;
+﻿using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using UserAuthApi.Data;
 using UserAuthApi.Models;
 
@@ -11,148 +13,82 @@ namespace UserAuthApi.Controllers
     public class AuthController : ControllerBase
     {
         private readonly AppDbContext _context;
+        private readonly IConfiguration _config;
 
-        public AuthController(AppDbContext context)
+        public AuthController(AppDbContext context, IConfiguration config)
         {
             _context = context;
+            _config = config;
         }
 
         [HttpPost("register")]
         public IActionResult Register([FromBody] CustomerInfo customer)
         {
-            if (customer == null)
-                return BadRequest(new { message = "Invalid customer data." });
+            if (customer == null) return BadRequest();
 
-            // 1. Business Logic: Default to 'self' if no dealer is provided
-            if (string.IsNullOrWhiteSpace(customer.AddedByDealer))
-            {
-                customer.AddedByDealer = "self";
-            }
+            _context.Customers.Add(customer);
+            _context.SaveChanges();
 
-            // 2. Pre-check: Prevent duplicate Emails (Assuming Email is unique in your table)
-            if (_context.Customers.Any(c => c.CMailId == customer.CMailId))
-            {
-                return Conflict(new { message = "A user with this email already exists." });
-            }
-
-            try
-            {
-                _context.Customers.Add(customer);
-                _context.SaveChanges();
-                return Ok(new { message = "Registration Successful" });
-            }
-            catch (DbUpdateException ex)
-            {
-                // Handle database-level constraints (Foreign Keys, Unique Indexes)
-                var innerMessage = ex.InnerException?.Message ?? ex.Message;
-
-                // Log the full exception here for debugging
-                return BadRequest(new
-                {
-                    error = "Database Constraint Violation",
-                    details = innerMessage.Contains("FOREIGN KEY")
-                              ? "The associated Dealer or reference was not found."
-                              : "Could not save record due to database constraints."
-                });
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, new { error = "Internal Server Error", details = ex.Message });
-            }
+            return Ok(new { message = "Registration Successful" });
         }
 
         [HttpPost("login")]
         public IActionResult Login([FromBody] LoginRequest request)
         {
-            if (request == null || string.IsNullOrEmpty(request.Email))
-                return BadRequest(new { success = false, message = "Invalid request" });
+            string userRole = "";
+            bool isValid = false;
 
-            // Use a unified way to store the found ID and Role
-            string? foundId = null;
-            string? foundRole = null;
-
-            // 1. Check Customer Table
+            // Simple validation logic (Reminder: Use hashing for production!)
             if (request.Role == "customer")
             {
-                var user = _context.Customers.FirstOrDefault(c => c.CMailId == request.Email && c.CPassword == request.Password);
-                if (user != null)
-                {
-                    foundId = user.CustomerId;
-                    foundRole = "customer";
-                }
+                isValid = _context.Customers.Any(c => c.CMailId == request.Email && c.CPassword == request.Password);
+                userRole = "customer";
             }
-            // 2. Check Dealer Table
             else if (request.Role == "dealer")
             {
-                var dealer = _context.Dealers.FirstOrDefault(d => d.DMailId == request.Email && d.DPassword == request.Password);
-                if (dealer != null)
-                {
-                    foundId = dealer.DealerId;
-                    foundRole = "dealer";
-                }
+                isValid = _context.Dealers.Any(d => d.DMailId == request.Email && d.DPassword == request.Password);
+                userRole = "dealer";
             }
-            // 3. Check Admin Table
             else if (request.Role == "admin")
             {
-                var admin = _context.Admins.FirstOrDefault(a => a.AMailId == request.Email && a.APassword == request.Password);
-                if (admin != null)
-                {
-                    foundId = admin.AdminId;
-                    foundRole = "admin";
-                }
+                isValid = _context.Admins.Any(a => a.AMailId == request.Email && a.APassword == request.Password);
+                userRole = "admin";
             }
 
-            // 4. Final Response Logic
-            if (foundId != null)
+            if (isValid)
             {
+                var token = GenerateToken(request.Email, userRole);
                 return Ok(new
                 {
                     success = true,
-                    customerId = foundId, // Angular looks for this key to save to localStorage
-                    role = foundRole
+                    token = token,
+                    role = userRole
                 });
             }
 
-            // If we reached here, no match was found in any table
             return Unauthorized(new { success = false, message = "Invalid credentials" });
         }
 
-
-        [HttpPost("book-service")]
-        public IActionResult BookService([FromBody] Booking booking)
+        private string GenerateToken(string email, string role)
         {
-            if (booking == null) return BadRequest();
-            _context.Bookings.Add(booking);
-            _context.SaveChanges();
-            return Ok(new { message = "Booking successful" });
-        }
+            var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
+            var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
 
-        [HttpGet("track-service/{customerId}")]
-        public IActionResult GetLatestBooking(string customerId)
-        {
-            // Fetch the most recent booking for this specific customer
-            var booking = _context.Bookings
-                .Where(b => b.CustomerId == customerId)
-                .OrderByDescending(b => b.CreatedAt)
-                .FirstOrDefault();
-
-            if (booking == null)
+            var claims = new[]
             {
-                return NotFound(new { message = "No booking found for this customer." });
-            }
+                new Claim(JwtRegisteredClaimNames.Sub, email),
+                new Claim(ClaimTypes.Role, role), // For [Authorize(Roles="admin")]
+                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
+            };
 
-            return Ok(booking);
-        }
+            var token = new JwtSecurityToken(
+                issuer: _config["Jwt:Issuer"],
+                audience: _config["Jwt:Audience"],
+                claims: claims,
+                expires: DateTime.Now.AddHours(2),
+                signingCredentials: credentials);
 
-        [HttpGet("service-history/{customerId}")]
-        public IActionResult GetServiceHistory(string customerId)
-        {
-            var history = _context.Bookings
-                .Where(b => b.CustomerId == customerId && b.BookingStatus == "COMPLETED")
-                .OrderByDescending(b => b.Slot)
-                .ToList();
-
-            return Ok(history);
+            return new JwtSecurityTokenHandler().WriteToken(token);
         }
     }
 }

@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\UserAuthApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\userauthapi\\controllers\\dealercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:controllers\\dealercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\userauthapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\userauthapi\\models\\admininfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:models\\admininfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\userauthapi\\controllers\\adddealercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:controllers\\adddealercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\userauthapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\userauthapi\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,24 +27,16 @@
       "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:models\\customerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\userauthapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\userauthapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\userauthapi\\models\\admininfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:models\\admininfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\userauthapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\userauthapi\\controllers\\adddealercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:controllers\\adddealercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\userauthapi\\controllers\\dealercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:controllers\\dealercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\userauthapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\userauthapi\\models\\dealerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -82,24 +82,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "CustomerInfo.cs",
               "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\UserAuthApi\\Models\\CustomerInfo.cs",
               "RelativeDocumentMoniker": "Models\\CustomerInfo.cs",
               "ToolTip": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\UserAuthApi\\Models\\CustomerInfo.cs",
               "RelativeToolTip": "Models\\CustomerInfo.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAAACwAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-07T05:27:57.825Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "LoginRequest.cs",
               "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\UserAuthApi\\Models\\LoginRequest.cs",
               "RelativeDocumentMoniker": "Models\\LoginRequest.cs",
@@ -112,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\UserAuthApi\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -125,32 +125,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\UserAuthApi\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\UserAuthApi\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AgIAAIMAAAAAAAAAAAAgwJ0AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-06T11:54:02.84Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\UserAuthApi\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\UserAuthApi\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "AddDealerController.cs",
+              "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\UserAuthApi\\Controllers\\AddDealerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AddDealerController.cs",
+              "ToolTip": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\UserAuthApi\\Controllers\\AddDealerController.cs",
+              "RelativeToolTip": "Controllers\\AddDealerController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T11:51:37.097Z"
+              "WhenOpened": "2026-02-09T04:34:46.733Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "DealerController.cs",
+              "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\UserAuthApi\\Controllers\\DealerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DealerController.cs",
+              "ToolTip": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\UserAuthApi\\Controllers\\DealerController.cs",
+              "RelativeToolTip": "Controllers\\DealerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T09:19:24.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "AdminInfo.cs",
               "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\UserAuthApi\\Models\\AdminInfo.cs",
               "RelativeDocumentMoniker": "Models\\AdminInfo.cs",
@@ -159,6 +173,19 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-07T08:31:22.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\UserAuthApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\UserAuthApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T11:51:37.097Z",
               "EditorCaption": ""
             },
             {
@@ -175,7 +202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\UserAuthApi\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
@@ -196,30 +223,6 @@
               "ViewState": "AgIAAEQAAAAAAAAAAAA0wD0AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-07T09:56:20.679Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AddDealerController.cs",
-              "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\UserAuthApi\\Controllers\\AddDealerController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AddDealerController.cs",
-              "ToolTip": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\UserAuthApi\\Controllers\\AddDealerController.cs",
-              "RelativeToolTip": "Controllers\\AddDealerController.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-09T04:34:46.733Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DealerController.cs",
-              "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\UserAuthApi\\Controllers\\DealerController.cs",
-              "RelativeDocumentMoniker": "Controllers\\DealerController.cs",
-              "ToolTip": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\UserAuthApi\\Controllers\\DealerController.cs",
-              "RelativeToolTip": "Controllers\\DealerController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwGMAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-08T09:19:24.204Z"
             },
             {
               "$type": "Document",
