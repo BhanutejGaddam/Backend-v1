@@ -1,5 +1,4 @@
-﻿using System.Data;
-using System.IdentityModel.Tokens.Jwt;
+﻿using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using Microsoft.AspNetCore.Mvc;
@@ -22,39 +21,12 @@ namespace UserAuthApi.Controllers
             _config = config;
         }
 
-        private string GenerateToken(string email, string role)
-        {
-            // 1. Create the security key from appsettings.json
-            var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
-            var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
-
-            // 2. Define the user's "Claims"
-            var claims = new[]
-            {
-        new Claim(JwtRegisteredClaimNames.Sub, email),
-        new Claim(JwtRegisteredClaimNames.Email, email),
-        new Claim(ClaimTypes.Role, role), // This allows [Authorize(Roles = "admin")]
-        new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()) // Unique ID for the token
-    };
-
-            // 3. Create the token object
-            var token = new JwtSecurityToken(
-                issuer: _config["Jwt:Issuer"],
-                audience: _config["Jwt:Audience"],
-                claims: claims,
-                expires: DateTime.Now.AddHours(3), // Token expires in 3 hours
-                signingCredentials: credentials);
-
-            // 4. Serialize the token into a string
-            return new JwtSecurityTokenHandler().WriteToken(token);
-        }
-
         [HttpPost("register")]
-        public IActionResult Register([FromBody] CustomerInfo customer) // Change User to CustomerInfo
+        public IActionResult Register([FromBody] CustomerInfo customer)
         {
             if (customer == null) return BadRequest();
 
-            _context.Customers.Add(customer); // Change _context.Users to _context.Customers
+            _context.Customers.Add(customer);
             _context.SaveChanges();
 
             return Ok(new { message = "Registration Successful" });
@@ -63,10 +35,10 @@ namespace UserAuthApi.Controllers
         [HttpPost("login")]
         public IActionResult Login([FromBody] LoginRequest request)
         {
-            // 1. Identify and Validate the User
             string userRole = "";
             bool isValid = false;
 
+            // Simple validation logic (Reminder: Use hashing for production!)
             if (request.Role == "customer")
             {
                 isValid = _context.Customers.Any(c => c.CMailId == request.Email && c.CPassword == request.Password);
@@ -83,7 +55,6 @@ namespace UserAuthApi.Controllers
                 userRole = "admin";
             }
 
-            // 2. If valid, generate and return the token
             if (isValid)
             {
                 var token = GenerateToken(request.Email, userRole);
@@ -91,12 +62,33 @@ namespace UserAuthApi.Controllers
                 {
                     success = true,
                     token = token,
-                    message = "Login successful",
-                    role = userRole // Helpful for frontend routing
+                    role = userRole
                 });
             }
 
-            return Unauthorized(new { success = false, message = "Invalid email, password, or role" });
+            return Unauthorized(new { success = false, message = "Invalid credentials" });
+        }
+
+        private string GenerateToken(string email, string role)
+        {
+            var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
+            var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
+
+            var claims = new[]
+            {
+                new Claim(JwtRegisteredClaimNames.Sub, email),
+                new Claim(ClaimTypes.Role, role), // For [Authorize(Roles="admin")]
+                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
+            };
+
+            var token = new JwtSecurityToken(
+                issuer: _config["Jwt:Issuer"],
+                audience: _config["Jwt:Audience"],
+                claims: claims,
+                expires: DateTime.Now.AddHours(2),
+                signingCredentials: credentials);
+
+            return new JwtSecurityTokenHandler().WriteToken(token);
         }
     }
 }
