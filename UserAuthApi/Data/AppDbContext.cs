@@ -12,6 +12,9 @@ namespace UserAuthApi.Data
         public DbSet<AdminInfo> Admins { get; set; }
 
         public DbSet<AddDealer> Dealers { get; set; }
+
+        public DbSet<VehicleInventory> VehicleInventories { get; set; }
+        public DbSet<SparePartInventory> SparePartInventories { get; set; }
     }
 }
 

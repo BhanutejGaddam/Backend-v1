@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace UserAuthApi.Models
 {
-    [Table("Customer_info")] // Maps class to your specific table name
+    [Table("Customer_Info")] // Matches the SQL table name exactly
     public class CustomerInfo
     {
         [Key]
@@ -23,7 +23,7 @@ namespace UserAuthApi.Models
         public string CMailId { get; set; } = string.Empty;
 
         [Column("c_contact_info")]
-        public long CContactInfo { get; set; } // bigint maps to long
+        public long CContactInfo { get; set; } // bigint maps to long in C#
 
         [Column("c_password")]
         public string CPassword { get; set; } = string.Empty;
@@ -34,14 +34,17 @@ namespace UserAuthApi.Models
         [Column("c_username")]
         public string CUsername { get; set; } = string.Empty;
 
-        // Fields not in registration form (using default/null values for now)
         [Column("vehicle_model_year")]
-        public string VehicleModelYear { get; set; } = "N/A";
+        public string VehicleModelYear { get; set; } = string.Empty;
 
         [Column("purchase_date")]
-        public DateTime PurchaseDate { get; set; } = DateTime.Now;
+        public DateTime PurchaseDate { get; set; }
 
         [Column("loyalty_points")]
         public int LoyaltyPoints { get; set; } = 0;
+
+        // NEW FIELD: Maps the form's dealer_id to the DB's added_by_dealer
+        [Column("added_by_dealer")]
+        public string? AddedByDealer { get; set; }
     }
 }
