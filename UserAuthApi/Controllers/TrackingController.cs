@@ -23,18 +23,18 @@ namespace UserAuthApi.Controllers
         {
             try
             {
-                // We fetch only the latest booking that isn't archived
-                var latestBooking = _context.Bookings
-                    .Where(b => b.CustomerId == customerId)
+                // Fetch all bookings for this customer that are NOT 'COMPLETED'
+                var activeBookings = _context.Bookings
+                    .Where(b => b.CustomerId == customerId && b.BookingStatus != "COMPLETED")
                     .OrderByDescending(b => b.CreatedAt)
-                    .FirstOrDefault();
+                    .ToList();
 
-                if (latestBooking == null)
+                if (activeBookings == null)
                 {
                     return NotFound(new { message = "No active service records found." });
                 }
 
-                return Ok(latestBooking);
+                return Ok(activeBookings);
             }
             catch (Exception ex)
             {
