@@ -24,5 +24,11 @@ namespace UserAuthApi.Models
 
         [Column("expiry")]
         public DateTime Expiry { get; set; }
+
+        [Column("dealer_id")]
+        public string dealerId { get; set; } = string.Empty;
+
+        [Column("customer_id")]
+        public string customer_id { get; set; } = string.Empty;
     }
 }

@@ -28,7 +28,7 @@ namespace UserAuthApi.Models
         public string? Address { get; set; }
 
         [Column("Vehicle_Model_Year")]
-        public short? VehicleModelYear { get; set; }
+        public string? VehicleModelYear { get; set; }
 
         [Column("VIN_Chassis_Number")]
         public string? VinChassisNumber { get; set; }
@@ -77,5 +77,8 @@ namespace UserAuthApi.Models
 
         [Column("booking_status")] // This tells EF to look for the lowercase name in SQL
         public string BookingStatus { get; set; } = "BOOKED";
+
+        [Column("total_bill")]
+        public decimal? TotalBill { get; set; } // Matches DECIMAL(10,2)
     }
 }

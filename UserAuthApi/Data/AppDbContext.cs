@@ -19,6 +19,17 @@ namespace UserAuthApi.Data
 
         public DbSet<VehicleInventory> VehicleInventories { get; set; }
         public DbSet<SparePartInventory> SparePartInventories { get; set; }
+
+        public DbSet<VehicleSalesInfo> VehicleSalesInfo { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            // Configure composite primary key for VehicleSalesInfo
+            modelBuilder.Entity<VehicleSalesInfo>()
+                .HasKey(v => new { v.DealerId, v.CustomerId, v.SoldDate });
+        }
     }
 }
 
