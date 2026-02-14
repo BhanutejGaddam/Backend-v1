@@ -7,10 +7,11 @@ using UserAuthApi.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
-//  Database Service
+// 1. Database Service
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+// 2. JWT Configuration
 var jwtKey = builder.Configuration["Jwt:Key"];
 var jwtIssuer = builder.Configuration["Jwt:Issuer"];
 var jwtAudience = builder.Configuration["Jwt:Audience"];
@@ -30,28 +31,22 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         };
     });
 
-//  CORS 
+// 3. CORS Policy
 builder.Services.AddCors(options => {
     options.AddPolicy("AngularPolicy", policy => {
-        policy.WithOrigins("http://localhost:4200").AllowAnyMethod().AllowAnyHeader();
+        policy.WithOrigins("http://localhost:4200")
+              .AllowAnyMethod()
+              .AllowAnyHeader();
     });
 });
 
 builder.Services.AddControllers();
-// ... (rest of existing code)
-
-// Add services to the container.
-
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
+
+// 4. Swagger with JWT Support
 builder.Services.AddSwaggerGen(c =>
 {
-    c.SwaggerDoc("v1", new OpenApiInfo
-    {
-        Title = "JWTTokenAuthAPI",
-        Version = "v1"
-    });
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "AutoConnect API", Version = "v1" });
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
     {
         Name = "Authorization",
@@ -59,15 +54,12 @@ builder.Services.AddSwaggerGen(c =>
         Scheme = "Bearer",
         BearerFormat = "JWT",
         In = ParameterLocation.Header,
-        Description = "JWT Authorization header using the Bearer scheme. \r\n\r\n Enter 'Bearer' [space] and then your token in the text input below.\r\n\r\nExample: \"Bearer 1safsfsdfdfd\"",
+        Description = "Enter 'Bearer' [space] and then your token.\r\n\r\nExample: \"Bearer 12345abcdef\"",
     });
     c.AddSecurityRequirement(new OpenApiSecurityRequirement {
         {
             new OpenApiSecurityScheme {
-                Reference = new OpenApiReference {
-                    Type = ReferenceType.SecurityScheme,
-                        Id = "Bearer"
-                }
+                Reference = new OpenApiReference { Type = ReferenceType.SecurityScheme, Id = "Bearer" }
             },
             new string[] {}
         }
@@ -75,9 +67,8 @@ builder.Services.AddSwaggerGen(c =>
 });
 
 var app = builder.Build();
-app.UseCors("AngularPolicy"); // This MUST be before app.UseAuthorization()
 
-// Configure the HTTP request pipeline.
+// 5. Middleware Pipeline (ORDER IS EXTREMELY IMPORTANT)
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -86,7 +77,10 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.UseAuthorization();
+app.UseCors("AngularPolicy"); // 1st: Enable CORS
+
+app.UseAuthentication();    // 2nd: Identify who the user is (MISSING IN YOUR ORIGINAL CODE)
+app.UseAuthorization();     // 3rd: Check if they have permission
 
 app.MapControllers();
 

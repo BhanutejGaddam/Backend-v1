@@ -7,7 +7,7 @@ namespace UserAuthApi.Models
     public class Booking
     {
         [Key]
-        public long BookingId { get; set; } // Identity column
+        public long BookingId { get; set; }
 
         [Column("Customer_id")]
         public string CustomerId { get; set; } = string.Empty;
@@ -24,9 +24,9 @@ namespace UserAuthApi.Models
         [Column("Email_Address")]
         public string? EmailAddress { get; set; }
 
-        [Column("Address")]
         public string? Address { get; set; }
 
+        // CHANGE THIS TO STRING
         [Column("Vehicle_Model_Year")]
         public string? VehicleModelYear { get; set; }
 
@@ -55,30 +55,39 @@ namespace UserAuthApi.Models
         public string? PreviousServiceHistory { get; set; }
 
         public DateTime Slot { get; set; }
+
+        [Column("Pickup_Dropoff")]
         public bool Pickup_Dropoff { get; set; }
+
+        [Column("Availed_Warranty")]
         public bool Availed_Warranty { get; set; }
 
-        // Individual Booleans for Warranty Checkboxes
-        public bool Engine_Check { get; set; }
-        public bool Brake_Inspection { get; set; }
-        public bool Oil_Change { get; set; }
-        public bool Transmission_Service { get; set; }
-        public bool Battery_Replacement { get; set; }
-        public bool Tire_Rotation { get; set; }
-        public bool Suspension_Check { get; set; }
-        public bool Electrical_System { get; set; }
-        public bool Cooling_System { get; set; }
-        public bool Exhaust_System { get; set; }
+        // Warranty Booleans
+        [Column("Engine_Check")] public bool Engine_Check { get; set; }
+        [Column("Brake_Inspection")] public bool Brake_Inspection { get; set; }
+        [Column("Oil_Change")] public bool Oil_Change { get; set; }
+        [Column("Transmission_Service")] public bool Transmission_Service { get; set; }
+        [Column("Battery_Replacement")] public bool Battery_Replacement { get; set; }
+        [Column("Tire_Rotation")] public bool Tire_Rotation { get; set; }
+        [Column("Suspension_Check")] public bool Suspension_Check { get; set; }
+        [Column("Electrical_System")] public bool Electrical_System { get; set; }
+        [Column("Cooling_System")] public bool Cooling_System { get; set; }
+        [Column("Exhaust_System")] public bool Exhaust_System { get; set; }
 
-        public string? Selected_Dealer { get; set; }
+        [Column("Selected_Dealer_Id")]
         public string? Selected_Dealer_Id { get; set; }
-        public DateTime CreatedAt { get; set; } = DateTime.Now;
-        public DateTime? ModifiedAt { get; set; }
 
-        [Column("booking_status")] // This tells EF to look for the lowercase name in SQL
-        public string BookingStatus { get; set; } = "BOOKED";
+
+        [Column("Selected_Dealer")]
+        public string? Selected_Dealer { get; set; }
 
         [Column("total_bill")]
-        public decimal? TotalBill { get; set; } // Matches DECIMAL(10,2)
+        public decimal? TotalBill { get; set; }
+
+
+        [Column("booking_status")]
+        public string BookingStatus { get; set; } = "BOOKED";
+
+        public DateTime CreatedAt { get; set; } = DateTime.Now;
     }
 }

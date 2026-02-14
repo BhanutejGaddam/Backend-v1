@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\UserAuthApi"
+    "\\UserAuthApi",
+    "\\UserAuthApi\\Models"
   ],
-  "SelectedNode": "\\UserAuthApi\\UserAuthApi.sln",
+  "SelectedNode": "\\UserAuthApi\\Models\\VehicleSalesInfo.cs",
   "PreviewInSolutionExplorer": false
 }
