@@ -106,12 +106,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -122,8 +118,7 @@
               "RelativeToolTip": "Controllers\\HistoryController.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAAABkAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-14T15:20:25.662Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-14T15:20:25.662Z"
             },
             {
               "$type": "Document",
@@ -133,7 +128,7 @@
               "RelativeDocumentMoniker": "Controllers\\TrackingController.cs",
               "ToolTip": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\UserAuthApi\\Controllers\\TrackingController.cs",
               "RelativeToolTip": "Controllers\\TrackingController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAA+wB8AAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAqwB8AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-14T15:13:16.722Z",
               "EditorCaption": ""
@@ -401,6 +396,10 @@
               "ViewState": "AgIAAAQAAAAAAAAAAAAmwAoAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-06T11:58:05.038Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
             }
           ]
         }
