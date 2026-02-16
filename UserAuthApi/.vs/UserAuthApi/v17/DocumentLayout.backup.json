@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\2460706\\OneDrive - Cognizant\\Desktop\\backend\\Backend-v1\\UserAuthApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460706\\onedrive - cognizant\\desktop\\backend\\backend-v1\\userauthapi\\controllers\\dealerinventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:controllers\\dealerinventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460706\\onedrive - cognizant\\desktop\\backend\\backend-v1\\userauthapi\\models\\vehicleinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:models\\vehicleinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460706\\onedrive - cognizant\\desktop\\backend\\backend-v1\\userauthapi\\controllers\\editbookingstatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:controllers\\editbookingstatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460706\\onedrive - cognizant\\desktop\\backend\\backend-v1\\userauthapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460706\\onedrive - cognizant\\desktop\\backend\\backend-v1\\userauthapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460706\\onedrive - cognizant\\desktop\\backend\\backend-v1\\userauthapi\\controllers\\dealerdashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:controllers\\dealerdashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,24 +43,12 @@
       "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:models\\adddealer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460706\\onedrive - cognizant\\desktop\\backend\\backend-v1\\userauthapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460706\\onedrive - cognizant\\desktop\\backend\\backend-v1\\userauthapi\\controllers\\dealercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:controllers\\dealercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460706\\onedrive - cognizant\\desktop\\backend\\backend-v1\\userauthapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460706\\onedrive - cognizant\\desktop\\backend\\backend-v1\\userauthapi\\controllers\\analyticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:controllers\\analyticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460706\\onedrive - cognizant\\desktop\\backend\\backend-v1\\userauthapi\\models\\vehicleinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:models\\vehicleinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460706\\onedrive - cognizant\\desktop\\backend\\backend-v1\\userauthapi\\models\\vehiclesalesinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460706\\onedrive - cognizant\\desktop\\backend\\backend-v1\\userauthapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460706\\onedrive - cognizant\\desktop\\backend\\backend-v1\\userauthapi\\controllers\\editbookingstatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:controllers\\editbookingstatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460706\\onedrive - cognizant\\desktop\\backend\\backend-v1\\userauthapi\\controllers\\trackingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -122,60 +126,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\2460706\\OneDrive - Cognizant\\Desktop\\backend\\Backend-v1\\UserAuthApi\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\2460706\\OneDrive - Cognizant\\Desktop\\backend\\Backend-v1\\UserAuthApi\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAYwCgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "DealerInventoryController.cs",
+              "DocumentMoniker": "C:\\Users\\2460706\\OneDrive - Cognizant\\Desktop\\backend\\Backend-v1\\UserAuthApi\\Controllers\\DealerInventoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DealerInventoryController.cs",
+              "ToolTip": "C:\\Users\\2460706\\OneDrive - Cognizant\\Desktop\\backend\\Backend-v1\\UserAuthApi\\Controllers\\DealerInventoryController.cs",
+              "RelativeToolTip": "Controllers\\DealerInventoryController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAgwD4AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-14T13:29:35.172Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\2460706\\OneDrive - Cognizant\\Desktop\\backend\\Backend-v1\\UserAuthApi\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\2460706\\OneDrive - Cognizant\\Desktop\\backend\\Backend-v1\\UserAuthApi\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAwAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-14T13:27:04.298Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\2460706\\OneDrive - Cognizant\\Desktop\\backend\\Backend-v1\\UserAuthApi\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\2460706\\OneDrive - Cognizant\\Desktop\\backend\\Backend-v1\\UserAuthApi\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-02-06T11:42:14.368Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Booking.cs",
-              "DocumentMoniker": "C:\\Users\\2460706\\OneDrive - Cognizant\\Desktop\\backend\\Backend-v1\\UserAuthApi\\Models\\Booking.cs",
-              "RelativeDocumentMoniker": "Models\\Booking.cs",
-              "ToolTip": "C:\\Users\\2460706\\OneDrive - Cognizant\\Desktop\\backend\\Backend-v1\\UserAuthApi\\Models\\Booking.cs",
-              "RelativeToolTip": "Models\\Booking.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAA2wFgAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-13T09:15:54.577Z",
+              "WhenOpened": "2026-02-16T08:45:08.235Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\2460706\\OneDrive - Cognizant\\Desktop\\backend\\Backend-v1\\UserAuthApi\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -187,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "DealerDashboardController.cs",
               "DocumentMoniker": "C:\\Users\\2460706\\OneDrive - Cognizant\\Desktop\\backend\\Backend-v1\\UserAuthApi\\Controllers\\DealerDashboardController.cs",
               "RelativeDocumentMoniker": "Controllers\\DealerDashboardController.cs",
@@ -195,24 +163,24 @@
               "RelativeToolTip": "Controllers\\DealerDashboardController.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAYwCUAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-13T13:38:58.75Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-13T13:38:58.75Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
               "Title": "VehicleInventory.cs",
               "DocumentMoniker": "C:\\Users\\2460706\\OneDrive - Cognizant\\Desktop\\backend\\Backend-v1\\UserAuthApi\\Models\\VehicleInventory.cs",
               "RelativeDocumentMoniker": "Models\\VehicleInventory.cs",
               "ToolTip": "C:\\Users\\2460706\\OneDrive - Cognizant\\Desktop\\backend\\Backend-v1\\UserAuthApi\\Models\\VehicleInventory.cs",
               "RelativeToolTip": "Models\\VehicleInventory.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAgwBkAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBgAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-08T09:05:21.306Z"
+              "WhenOpened": "2026-02-08T09:05:21.306Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "BookingsController.cs",
               "DocumentMoniker": "C:\\Users\\2460706\\OneDrive - Cognizant\\Desktop\\backend\\Backend-v1\\UserAuthApi\\Controllers\\BookingsController.cs",
               "RelativeDocumentMoniker": "Controllers\\BookingsController.cs",
@@ -224,7 +192,68 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EditBookingStatusController.cs",
+              "DocumentMoniker": "C:\\Users\\2460706\\OneDrive - Cognizant\\Desktop\\backend\\Backend-v1\\UserAuthApi\\Controllers\\EditBookingStatusController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EditBookingStatusController.cs",
+              "ToolTip": "C:\\Users\\2460706\\OneDrive - Cognizant\\Desktop\\backend\\Backend-v1\\UserAuthApi\\Controllers\\EditBookingStatusController.cs",
+              "RelativeToolTip": "Controllers\\EditBookingStatusController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwBAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T07:39:14.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\2460706\\OneDrive - Cognizant\\Desktop\\backend\\Backend-v1\\UserAuthApi\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\2460706\\OneDrive - Cognizant\\Desktop\\backend\\Backend-v1\\UserAuthApi\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-06T11:42:14.368Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\2460706\\OneDrive - Cognizant\\Desktop\\backend\\Backend-v1\\UserAuthApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\2460706\\OneDrive - Cognizant\\Desktop\\backend\\Backend-v1\\UserAuthApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAkwCsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T13:29:35.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\2460706\\OneDrive - Cognizant\\Desktop\\backend\\Backend-v1\\UserAuthApi\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "Models\\Booking.cs",
+              "ToolTip": "C:\\Users\\2460706\\OneDrive - Cognizant\\Desktop\\backend\\Backend-v1\\UserAuthApi\\Models\\Booking.cs",
+              "RelativeToolTip": "Models\\Booking.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAA2wFgAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T09:15:54.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\2460706\\OneDrive - Cognizant\\Desktop\\backend\\Backend-v1\\UserAuthApi\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\2460706\\OneDrive - Cognizant\\Desktop\\backend\\Backend-v1\\UserAuthApi\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T13:27:04.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "AddDealer.cs",
               "DocumentMoniker": "C:\\Users\\2460706\\OneDrive - Cognizant\\Desktop\\backend\\Backend-v1\\UserAuthApi\\Models\\AddDealer.cs",
               "RelativeDocumentMoniker": "Models\\AddDealer.cs",
@@ -236,7 +265,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "DealerController.cs",
               "DocumentMoniker": "C:\\Users\\2460706\\OneDrive - Cognizant\\Desktop\\backend\\Backend-v1\\UserAuthApi\\Controllers\\DealerController.cs",
               "RelativeDocumentMoniker": "Controllers\\DealerController.cs",
@@ -248,7 +277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "VehicleSalesInfo.cs",
               "DocumentMoniker": "C:\\Users\\2460706\\OneDrive - Cognizant\\Desktop\\backend\\Backend-v1\\UserAuthApi\\Models\\VehicleSalesInfo.cs",
               "RelativeDocumentMoniker": "Models\\VehicleSalesInfo.cs",
@@ -260,7 +289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "AnalyticsController.cs",
               "DocumentMoniker": "C:\\Users\\2460706\\OneDrive - Cognizant\\Desktop\\backend\\Backend-v1\\UserAuthApi\\Controllers\\AnalyticsController.cs",
               "RelativeDocumentMoniker": "Controllers\\AnalyticsController.cs",
@@ -272,19 +301,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "EditBookingStatusController.cs",
-              "DocumentMoniker": "C:\\Users\\2460706\\OneDrive - Cognizant\\Desktop\\backend\\Backend-v1\\UserAuthApi\\Controllers\\EditBookingStatusController.cs",
-              "RelativeDocumentMoniker": "Controllers\\EditBookingStatusController.cs",
-              "ToolTip": "C:\\Users\\2460706\\OneDrive - Cognizant\\Desktop\\backend\\Backend-v1\\UserAuthApi\\Controllers\\EditBookingStatusController.cs",
-              "RelativeToolTip": "Controllers\\EditBookingStatusController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-15T07:39:14.008Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "TrackingController.cs",
               "DocumentMoniker": "C:\\Users\\2460706\\OneDrive - Cognizant\\Desktop\\backend\\Backend-v1\\UserAuthApi\\Controllers\\TrackingController.cs",
               "RelativeDocumentMoniker": "Controllers\\TrackingController.cs",
@@ -296,7 +313,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "ServiceHistoryController.cs",
               "DocumentMoniker": "C:\\Users\\2460706\\OneDrive - Cognizant\\Desktop\\backend\\Backend-v1\\UserAuthApi\\Controllers\\ServiceHistoryController.cs",
               "RelativeDocumentMoniker": "Controllers\\ServiceHistoryController.cs",
@@ -308,7 +325,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "CustomerInfo.cs",
               "DocumentMoniker": "C:\\Users\\2460706\\OneDrive - Cognizant\\Desktop\\backend\\Backend-v1\\UserAuthApi\\Models\\CustomerInfo.cs",
               "RelativeDocumentMoniker": "Models\\CustomerInfo.cs",
@@ -320,7 +337,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "HistoryController.cs",
               "DocumentMoniker": "C:\\Users\\2460706\\OneDrive - Cognizant\\Desktop\\backend\\Backend-v1\\UserAuthApi\\Controllers\\HistoryController.cs",
               "RelativeDocumentMoniker": "Controllers\\HistoryController.cs",
@@ -332,7 +349,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "AddDealerController.cs",
               "DocumentMoniker": "C:\\Users\\2460706\\OneDrive - Cognizant\\Desktop\\backend\\Backend-v1\\UserAuthApi\\Controllers\\AddDealerController.cs",
               "RelativeDocumentMoniker": "Controllers\\AddDealerController.cs",
@@ -344,7 +361,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "UserAuthApi.csproj",
               "DocumentMoniker": "C:\\Users\\2460706\\OneDrive - Cognizant\\Desktop\\backend\\Backend-v1\\UserAuthApi\\UserAuthApi.csproj",
               "RelativeDocumentMoniker": "UserAuthApi.csproj",
@@ -356,7 +373,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "AddCustomerController.cs",
               "DocumentMoniker": "C:\\Users\\2460706\\OneDrive - Cognizant\\Desktop\\backend\\Backend-v1\\UserAuthApi\\Controllers\\AddCustomerController.cs",
               "RelativeDocumentMoniker": "Controllers\\AddCustomerController.cs",
@@ -368,7 +385,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "DealerCustomersController.cs",
               "DocumentMoniker": "C:\\Users\\2460706\\OneDrive - Cognizant\\Desktop\\backend\\Backend-v1\\UserAuthApi\\Controllers\\DealerCustomersController.cs",
               "RelativeDocumentMoniker": "Controllers\\DealerCustomersController.cs",
@@ -380,7 +397,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "WarrantyCompliance.cs",
               "DocumentMoniker": "C:\\Users\\2460706\\OneDrive - Cognizant\\Desktop\\backend\\Backend-v1\\UserAuthApi\\Models\\WarrantyCompliance.cs",
               "RelativeDocumentMoniker": "Models\\WarrantyCompliance.cs",
@@ -392,7 +409,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "InventoryController.cs",
               "DocumentMoniker": "C:\\Users\\2460706\\OneDrive - Cognizant\\Desktop\\backend\\Backend-v1\\UserAuthApi\\Controllers\\InventoryController.cs",
               "RelativeDocumentMoniker": "Controllers\\InventoryController.cs",
@@ -404,7 +421,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "ComplianceInformation.cs",
               "DocumentMoniker": "C:\\Users\\2460706\\OneDrive - Cognizant\\Desktop\\backend\\Backend-v1\\UserAuthApi\\Models\\ComplianceInformation.cs",
               "RelativeDocumentMoniker": "Models\\ComplianceInformation.cs",
@@ -416,7 +433,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "SparePartInventory.cs",
               "DocumentMoniker": "C:\\Users\\2460706\\OneDrive - Cognizant\\Desktop\\backend\\Backend-v1\\UserAuthApi\\Models\\SparePartInventory.cs",
               "RelativeDocumentMoniker": "Models\\SparePartInventory.cs",
@@ -428,7 +445,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "LoginRequest.cs",
               "DocumentMoniker": "C:\\Users\\2460706\\OneDrive - Cognizant\\Desktop\\backend\\Backend-v1\\UserAuthApi\\Models\\LoginRequest.cs",
               "RelativeDocumentMoniker": "Models\\LoginRequest.cs",
@@ -440,7 +457,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "20260207053447_UpdateToAutoConnect.cs",
               "DocumentMoniker": "C:\\Users\\2460706\\OneDrive - Cognizant\\Desktop\\backend\\Backend-v1\\UserAuthApi\\Migrations\\20260207053447_UpdateToAutoConnect.cs",
               "RelativeDocumentMoniker": "Migrations\\20260207053447_UpdateToAutoConnect.cs",
@@ -452,7 +469,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "20260206115804_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\2460706\\OneDrive - Cognizant\\Desktop\\backend\\Backend-v1\\UserAuthApi\\Migrations\\20260206115804_InitialCreate.cs",
               "RelativeDocumentMoniker": "Migrations\\20260206115804_InitialCreate.cs",

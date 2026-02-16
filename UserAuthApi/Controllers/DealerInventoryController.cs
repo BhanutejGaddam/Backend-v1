@@ -59,8 +59,15 @@ namespace UserAuthApi.Controllers
         {
             if (vehicle == null) return BadRequest();
 
-            // Force the DealerId to be the one from the JWT token for security
-            vehicle.DealerId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value ?? string.Empty;
+            // Change ClaimTypes.NameIdentifier to "db_id"
+            var dealerIdFromToken = User.FindFirst("db_id")?.Value;
+
+            if (string.IsNullOrEmpty(dealerIdFromToken))
+            {
+                return Unauthorized(new { message = "Dealer ID not found in token." });
+            }
+
+            vehicle.DealerId = dealerIdFromToken;
 
             _context.VehicleInventories.Add(vehicle);
             _context.SaveChanges();
@@ -75,7 +82,7 @@ namespace UserAuthApi.Controllers
             if (sparePart == null) return BadRequest();
 
             // Force the DealerId to be the one from the JWT token
-            sparePart.DealerId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value ?? string.Empty;
+            sparePart.DealerId = User.FindFirst("db_id")?.Value;
 
             _context.SparePartInventories.Add(sparePart);
             _context.SaveChanges();
