@@ -35,8 +35,7 @@ namespace UserAuthApi.Controllers
 
                 // 3. Query bookings for this dealer where the Slot is today
                 var bookings = await _context.Bookings
-                    .Where(b => b.Selected_Dealer_Id == currentDealerId &&
-                                b.Slot == DateTime.Today)
+                    .Where(b => b.Selected_Dealer_Id == currentDealerId)
                     .OrderBy(b => b.Slot) // Order by appointment time
                     .ToListAsync();
 
