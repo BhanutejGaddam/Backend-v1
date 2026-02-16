@@ -16,12 +16,12 @@ namespace UserAuthApi.Data
 
         public DbSet<ComplianceInformation> ComplianceInformations { get; set; }
         public DbSet<AddDealer> Dealers { get; set; }
-
         public DbSet<VehicleInventory> VehicleInventories { get; set; }
         public DbSet<SparePartInventory> SparePartInventories { get; set; }
 
         public DbSet<VehicleSalesInfo> VehicleSalesInfo { get; set; }
 
+       
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

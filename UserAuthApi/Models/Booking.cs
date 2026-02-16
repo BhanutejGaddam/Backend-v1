@@ -89,5 +89,6 @@ namespace UserAuthApi.Models
         public string BookingStatus { get; set; } = "BOOKED";
 
         public DateTime CreatedAt { get; set; } = DateTime.Now;
+    
     }
 }
