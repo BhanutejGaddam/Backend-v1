@@ -3,6 +3,7 @@ using UserAuthApi.Data;
 using UserAuthApi.Models;
 using System;
 using System.Linq;
+using Microsoft.EntityFrameworkCore;
 
 namespace UserAuthApi.Controllers
 {
@@ -18,17 +19,17 @@ namespace UserAuthApi.Controllers
         }
 
         [HttpGet("{dealerId}")]
-        public IActionResult GetDealerInventory(string dealerId)
+        public async Task<IActionResult> GetDealerInventory(string dealerId)
         {
             try
             {
-                var vehicles = _context.VehicleInventories
+                var vehicles =await _context.VehicleInventories
                     .Where(v => v.DealerId == dealerId)
-                    .ToList();
+                    .ToListAsync();
 
-                var spareParts = _context.SparePartInventories
+                var spareParts =await _context.SparePartInventories
                     .Where(p => p.DealerId == dealerId)
-                    .ToList();
+                    .ToListAsync();
 
                 return Ok(new
                 {
