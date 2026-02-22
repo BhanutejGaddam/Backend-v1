@@ -1,7 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore; // Required for async EF Core extensions
 using UserAuthApi.Data;
 using UserAuthApi.Models;
 using System.Net;
+using System.Threading.Tasks; // Required for Task
 
 [Route("api/[controller]")]
 [ApiController]
@@ -15,49 +17,50 @@ public class DealerController : ControllerBase
     // ==========================================
 
     [HttpGet("warranties")]
-    public IActionResult GetAllWarranties() => Ok(_context.WarrantyCompliances.ToList());
+    public async Task<IActionResult> GetAllWarranties() => Ok(await _context.WarrantyCompliances.ToListAsync());
 
     [HttpGet("warranties/{vehicleNo}")]
-    public IActionResult GetWarrantyByNo(string vehicleNo)
+    public async Task<IActionResult> GetWarrantyByNo(string vehicleNo)
     {
         var decodedNo = WebUtility.UrlDecode(vehicleNo);
-        var item = _context.WarrantyCompliances.Find(decodedNo);
+        var item = await _context.WarrantyCompliances.FindAsync(decodedNo);
         return item == null ? NotFound() : Ok(item);
     }
 
     [HttpPost("warranties")]
-    public IActionResult CreateWarranty([FromBody] WarrantyCompliance data)
+    public async Task<IActionResult> CreateWarranty([FromBody] WarrantyCompliance data)
     {
-        _context.WarrantyCompliances.Add(data);
-        _context.SaveChanges();
+        await _context.WarrantyCompliances.AddAsync(data);
+        await _context.SaveChangesAsync();
         return Ok(data);
     }
 
     [HttpPut("warranties/{vehicleNo}")]
-    public IActionResult UpdateWarranty(string vehicleNo, [FromBody] WarrantyCompliance data)
+    public async Task<IActionResult> UpdateWarranty(string vehicleNo, [FromBody] WarrantyCompliance data)
     {
         var decodedNo = WebUtility.UrlDecode(vehicleNo);
-        var existing = _context.WarrantyCompliances.Find(decodedNo);
+        var existing = await _context.WarrantyCompliances.FindAsync(decodedNo);
         if (existing == null) return NotFound();
 
         existing.Status = data.Status;
         existing.IssuedDate = data.IssuedDate;
         existing.ExpiryDate = data.ExpiryDate;
 
-        _context.SaveChanges();
+        await _context.SaveChangesAsync();
         return Ok(existing);
     }
 
     [HttpDelete("warranties/{vehicleNo}")]
-    public IActionResult DeleteWarranty(string vehicleNo)
+    public async Task<IActionResult> DeleteWarranty(string vehicleNo)
     {
         var decodedNo = WebUtility.UrlDecode(vehicleNo);
-        var item = _context.WarrantyCompliances.Find(decodedNo);
+        var item = await _context.WarrantyCompliances.FindAsync(decodedNo);
 
         if (item == null) return NotFound(new { message = "Warranty record not found" });
 
+        // Remove remains synchronous because it only marks the entity state as 'Deleted' locally
         _context.WarrantyCompliances.Remove(item);
-        _context.SaveChanges();
+        await _context.SaveChangesAsync();
         return Ok(new { message = "Warranty deleted successfully" });
     }
 
@@ -66,29 +69,29 @@ public class DealerController : ControllerBase
     // ==========================================
 
     [HttpGet("compliance")]
-    public IActionResult GetAllCompliance() => Ok(_context.ComplianceInformations.ToList());
+    public async Task<IActionResult> GetAllCompliance() => Ok(await _context.ComplianceInformations.ToListAsync());
 
     [HttpGet("compliance/{vehicleNo}")]
-    public IActionResult GetComplianceByNo(string vehicleNo)
+    public async Task<IActionResult> GetComplianceByNo(string vehicleNo)
     {
         var decodedNo = WebUtility.UrlDecode(vehicleNo);
-        var item = _context.ComplianceInformations.Find(decodedNo);
+        var item = await _context.ComplianceInformations.FindAsync(decodedNo);
         return item == null ? NotFound() : Ok(item);
     }
 
     [HttpPost("compliance")]
-    public IActionResult CreateCompliance([FromBody] ComplianceInformation data)
+    public async Task<IActionResult> CreateCompliance([FromBody] ComplianceInformation data)
     {
-        _context.ComplianceInformations.Add(data);
-        _context.SaveChanges();
+        await _context.ComplianceInformations.AddAsync(data);
+        await _context.SaveChangesAsync();
         return Ok(data);
     }
 
     [HttpPut("compliance/{vehicleNo}")]
-    public IActionResult UpdateCompliance(string vehicleNo, [FromBody] ComplianceInformation data)
+    public async Task<IActionResult> UpdateCompliance(string vehicleNo, [FromBody] ComplianceInformation data)
     {
         var decodedNo = WebUtility.UrlDecode(vehicleNo);
-        var existing = _context.ComplianceInformations.Find(decodedNo);
+        var existing = await _context.ComplianceInformations.FindAsync(decodedNo);
         if (existing == null) return NotFound();
 
         existing.PollutionCheck = data.PollutionCheck;
@@ -97,20 +100,21 @@ public class DealerController : ControllerBase
         existing.LastChecked = data.LastChecked;
         existing.Expiry = data.Expiry;
 
-        _context.SaveChanges();
+        await _context.SaveChangesAsync();
         return Ok(existing);
     }
 
     [HttpDelete("compliance/{vehicleNo}")]
-    public IActionResult DeleteCompliance(string vehicleNo)
+    public async Task<IActionResult> DeleteCompliance(string vehicleNo)
     {
         var decodedNo = WebUtility.UrlDecode(vehicleNo);
-        var item = _context.ComplianceInformations.Find(decodedNo);
+        var item = await _context.ComplianceInformations.FindAsync(decodedNo);
 
         if (item == null) return NotFound(new { message = "Compliance record not found" });
 
+        // Remove remains synchronous 
         _context.ComplianceInformations.Remove(item);
-        _context.SaveChanges();
+        await _context.SaveChangesAsync();
         return Ok(new { message = "Compliance deleted successfully" });
     }
 }

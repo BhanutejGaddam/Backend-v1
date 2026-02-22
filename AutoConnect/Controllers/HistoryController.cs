@@ -1,7 +1,11 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore; // Required for async EF Core extensions
 using UserAuthApi.Data;
 using UserAuthApi.Models;
+using System;
+using System.Linq;
+using System.Threading.Tasks; // Required for Task
 
 namespace UserAuthApi.Controllers
 {
@@ -19,15 +23,16 @@ namespace UserAuthApi.Controllers
 
         // GET: api/History/customer/CUST123
         [HttpGet("customer/{customerId}")]
-        public IActionResult GetCompletedHistory(string customerId)
+        public async Task<IActionResult> GetCompletedHistory(string customerId) // Changed to async Task
         {
             try
             {
                 // Filter by CustomerId AND status must be 'COMPLETED'
-                var history = _context.Bookings
+                // Replaced ToList() with ToListAsync() and added await
+                var history = await _context.Bookings
                     .Where(b => b.CustomerId == customerId && b.BookingStatus == "COMPLETED")
                     .OrderByDescending(b => b.Slot)
-                    .ToList();
+                    .ToListAsync();
 
                 return Ok(history);
             }

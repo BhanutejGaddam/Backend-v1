@@ -1,9 +1,12 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore; // Required for async EF Core extensions
 using UserAuthApi.Data;
 using UserAuthApi.Models;
 using System.Security.Claims;
-using System.IdentityModel.Tokens.Jwt;
+using System.Threading.Tasks; // Required for Task
+using System;
+using System.Linq;
 
 namespace UserAuthApi.Controllers
 {
@@ -22,7 +25,7 @@ namespace UserAuthApi.Controllers
         // GET: api/DealerInventory/my-inventory
         [HttpGet("my-inventory")]
         [Authorize(Roles = "dealer")]
-        public IActionResult GetMyInventory()
+        public async Task<IActionResult> GetMyInventory() // Changed to async Task
         {
             try
             {
@@ -32,14 +35,15 @@ namespace UserAuthApi.Controllers
                 if (string.IsNullOrEmpty(currentDealerId))
                     return Unauthorized(new { message = "Dealer ID missing from token." });
 
-                // 2. Fetch inventory directly using that ID
-                var vehicles = _context.VehicleInventories
+                // 2. Fetch inventory directly using that ID asynchronously
+                // Replaced ToList() with ToListAsync()
+                var vehicles = await _context.VehicleInventories
                     .Where(v => v.DealerId == currentDealerId)
-                    .ToList();
+                    .ToListAsync();
 
-                var spareParts = _context.SparePartInventories
+                var spareParts = await _context.SparePartInventories
                     .Where(p => p.DealerId == currentDealerId)
-                    .ToList();
+                    .ToListAsync();
 
                 return Ok(new
                 {
@@ -53,9 +57,10 @@ namespace UserAuthApi.Controllers
                 return StatusCode(500, new { message = "Server Error", error = ex.Message });
             }
         }
+
         // POST: api/DealerInventory/add-vehicle
         [HttpPost("add-vehicle")]
-        public IActionResult AddVehicle([FromBody] VehicleInventory vehicle)
+        public async Task<IActionResult> AddVehicle([FromBody] VehicleInventory vehicle) // Changed to async Task
         {
             if (vehicle == null) return BadRequest();
 
@@ -69,23 +74,25 @@ namespace UserAuthApi.Controllers
 
             vehicle.DealerId = dealerIdFromToken;
 
-            _context.VehicleInventories.Add(vehicle);
-            _context.SaveChanges();
+            // Replaced Add with AddAsync and SaveChanges with SaveChangesAsync
+            await _context.VehicleInventories.AddAsync(vehicle);
+            await _context.SaveChangesAsync();
 
             return Ok(new { message = "Vehicle added successfully", vehicleId = vehicle.VehicleId });
         }
 
         // POST: api/DealerInventory/add-spare-part
         [HttpPost("add-spare-part")]
-        public IActionResult AddSparePart([FromBody] SparePartInventory sparePart)
+        public async Task<IActionResult> AddSparePart([FromBody] SparePartInventory sparePart) // Changed to async Task
         {
             if (sparePart == null) return BadRequest();
 
             // Force the DealerId to be the one from the JWT token
             sparePart.DealerId = User.FindFirst("db_id")?.Value;
 
-            _context.SparePartInventories.Add(sparePart);
-            _context.SaveChanges();
+            // Replaced Add with AddAsync and SaveChanges with SaveChangesAsync
+            await _context.SparePartInventories.AddAsync(sparePart);
+            await _context.SaveChangesAsync();
 
             return Ok(new { message = "Spare part added successfully", sparePartId = sparePart.SparePartId });
         }

@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using UserAuthApi.Data;
 using UserAuthApi.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace UserAuthApi.Controllers
 {
@@ -19,15 +20,15 @@ namespace UserAuthApi.Controllers
 
         // GET: api/Tracking/status/CUST123
         [HttpGet("status/{customerId}")]
-        public IActionResult GetActiveServiceStatus(string customerId)
+        public async Task<IActionResult> GetActiveServiceStatus(string customerId)
         {
             try
             {
                 // Fetch all bookings for this customer that are NOT 'COMPLETED'
-                var activeBookings = _context.Bookings
+                var activeBookings = await _context.Bookings
                     .Where(b => b.CustomerId == customerId && b.BookingStatus != "COMPLETED")
                     .OrderByDescending(b => b.CreatedAt)
-                    .ToList();
+                    .ToListAsync();
 
                 if (activeBookings == null)
                 {
