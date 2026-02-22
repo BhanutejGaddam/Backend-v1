@@ -22,25 +22,19 @@ namespace UserAuthApi.Controllers
         [HttpGet("status/{customerId}")]
         public async Task<IActionResult> GetActiveServiceStatus(string customerId)
         {
-            try
-            {
-                // Fetch all bookings for this customer that are NOT 'COMPLETED'
-                var activeBookings = await _context.Bookings
-                    .Where(b => b.CustomerId == customerId && b.BookingStatus != "COMPLETED")
-                    .OrderByDescending(b => b.CreatedAt)
-                    .ToListAsync();
+            // Fetch all bookings for this customer that are NOT 'COMPLETED'
+            // The Global Middleware now handles any potential database exceptions
+            var activeBookings = await _context.Bookings
+                .Where(b => b.CustomerId == customerId && b.BookingStatus != "COMPLETED")
+                .OrderByDescending(b => b.CreatedAt)
+                .ToListAsync();
 
-                if (activeBookings == null)
-                {
-                    return NotFound(new { message = "No active service records found." });
-                }
-
-                return Ok(activeBookings);
-            }
-            catch (Exception ex)
+            if (activeBookings == null || !activeBookings.Any())
             {
-                return StatusCode(500, new { message = "Internal Server Error", error = ex.Message });
+                return NotFound(new { message = "No active service records found." });
             }
+
+            return Ok(activeBookings);
         }
     }
 }

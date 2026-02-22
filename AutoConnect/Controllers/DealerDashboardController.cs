@@ -22,30 +22,24 @@ namespace UserAuthApi.Controllers
         [HttpGet("today-bookings")]
         public async Task<IActionResult> GetTodayBookings()
         {
-            try
-            {
-                // 1. Get the Dealer ID from the authenticated token
-                var currentDealerId = User.FindFirst("db_id")?.Value;
+            // 1. Get the Dealer ID from the authenticated token
+            var currentDealerId = User.FindFirst("db_id")?.Value;
 
-                if (string.IsNullOrEmpty(currentDealerId))
-                    return Unauthorized(new { message = "Dealer ID not found in token." });
+            if (string.IsNullOrEmpty(currentDealerId))
+                return Unauthorized(new { message = "Dealer ID not found in token." });
 
-                // 2. Get today's date (at midnight)
-                var today = DateTime.Today;
+            // 2. Get today's date (at midnight)
+            var today = DateTime.Today;
 
-                // 3. Query bookings for this dealer where the Slot is today
-                var bookings = await _context.Bookings
-                    .Where(b => b.Selected_Dealer_Id == currentDealerId
-                             && b.Slot.Date == today) // <--- ADD THIS LINE
-                    .OrderBy(b => b.Slot)
-                    .ToListAsync();
+            // 3. Query bookings for this dealer where the Slot is today
+            // Any database-level exceptions will now be caught by your Global Exception Middleware
+            var bookings = await _context.Bookings
+                .Where(b => b.Selected_Dealer_Id == currentDealerId
+                         && b.Slot.Date == today)
+                .OrderBy(b => b.Slot)
+                .ToListAsync();
 
-                return Ok(bookings);
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, new { message = "Error fetching today's bookings", error = ex.Message });
-            }
+            return Ok(bookings);
         }
     }
 }

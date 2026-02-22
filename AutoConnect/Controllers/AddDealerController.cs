@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore; // Required for async EF Core extensions
+using Microsoft.EntityFrameworkCore;
 using UserAuthApi.Data;
 using UserAuthApi.Models;
 using System;
-using System.Threading.Tasks; // Required for Task
+using System.Threading.Tasks;
 using System.Collections.Generic;
 
 namespace UserAuthApi.Controllers
@@ -21,23 +21,16 @@ namespace UserAuthApi.Controllers
 
         // GET: api/AddDealer
         [HttpGet]
-        public async Task<IActionResult> GetAllDealers() // Changed to async Task
+        public async Task<IActionResult> GetAllDealers()
         {
-            try
-            {
-                // Replaced ToList() with ToListAsync()
-                var dealersList = await _context.Dealers.ToListAsync();
-                return Ok(dealersList);
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, new { message = "Error fetching dealers", error = ex.Message });
-            }
+            // Middleware catches any connection or query errors
+            var dealersList = await _context.Dealers.ToListAsync();
+            return Ok(dealersList);
         }
 
         // POST: api/AddDealer/add
         [HttpPost("add")]
-        public async Task<IActionResult> RegisterDealer([FromBody] DealerPostDto dto) // Changed to async Task
+        public async Task<IActionResult> RegisterDealer([FromBody] DealerPostDto dto)
         {
             if (dto == null)
                 return BadRequest(new { message = "Invalid data received" });
@@ -58,34 +51,25 @@ namespace UserAuthApi.Controllers
                 DMailId = dto.DMailId,
                 DContactInfo = phoneAsLong,
                 StoreName = dto.StoreName,
-                DPassword = dto.DPassword, // Note: You should hash this in production!
+                DPassword = dto.DPassword,
                 StoreAddress = dto.StoreAddress,
                 City = dto.City,
                 State = dto.State,
                 DUsername = dto.DUsername
             };
 
-            try
+            // 3. Check for duplicates
+            if (await _context.Dealers.AnyAsync(d => d.DealerId == newDealer.DealerId))
             {
-                // 3. Replaced Any() with AnyAsync()
-                if (await _context.Dealers.AnyAsync(d => d.DealerId == newDealer.DealerId))
-                {
-                    return Conflict(new { message = "A dealer with this ID already exists." });
-                }
-
-                // Replaced Add() with AddAsync()
-                await _context.Dealers.AddAsync(newDealer);
-
-                // Replaced SaveChanges() with SaveChangesAsync()
-                await _context.SaveChangesAsync();
-
-                return Ok(new { message = "Dealer added successfully", id = newDealer.DealerId });
+                return Conflict(new { message = "A dealer with this ID already exists." });
             }
-            catch (Exception ex)
-            {
-                var innerMessage = ex.InnerException?.Message ?? ex.Message;
-                return StatusCode(500, new { message = "Database operation failed", error = innerMessage });
-            }
+
+            // 4. Save to Database
+            // If anything fails here, Middleware returns the clean JSON error
+            await _context.Dealers.AddAsync(newDealer);
+            await _context.SaveChangesAsync();
+
+            return Ok(new { message = "Dealer added successfully", id = newDealer.DealerId });
         }
     }
 

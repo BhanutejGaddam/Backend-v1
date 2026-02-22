@@ -4,6 +4,7 @@ using UserAuthApi.Models;
 using System;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
+using System.Threading.Tasks;
 
 namespace UserAuthApi.Controllers
 {
@@ -21,26 +22,20 @@ namespace UserAuthApi.Controllers
         [HttpGet("{dealerId}")]
         public async Task<IActionResult> GetDealerInventory(string dealerId)
         {
-            try
-            {
-                var vehicles =await _context.VehicleInventories
-                    .Where(v => v.DealerId == dealerId)
-                    .ToListAsync();
+            // Global Middleware catches any errors during these DB queries
+            var vehicles = await _context.VehicleInventories
+                .Where(v => v.DealerId == dealerId)
+                .ToListAsync();
 
-                var spareParts =await _context.SparePartInventories
-                    .Where(p => p.DealerId == dealerId)
-                    .ToListAsync();
+            var spareParts = await _context.SparePartInventories
+                .Where(p => p.DealerId == dealerId)
+                .ToListAsync();
 
-                return Ok(new
-                {
-                    Vehicles = vehicles,
-                    SpareParts = spareParts
-                });
-            }
-            catch (Exception ex)
+            return Ok(new
             {
-                return StatusCode(500, new { message = "Error retrieving inventory", error = ex.Message });
-            }
+                Vehicles = vehicles,
+                SpareParts = spareParts
+            });
         }
     }
 }

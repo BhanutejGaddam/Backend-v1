@@ -22,26 +22,20 @@ namespace UserAuthApi.Controllers
         [HttpGet("my-customers")]
         public async Task<IActionResult> GetMyCustomers()
         {
-            try
-            {
-                // Extract the Dealer ID from the JWT 'db_id' claim
-                var currentDealerId = User.FindFirst("db_id")?.Value;
+            // Extract the Dealer ID from the JWT 'db_id' claim
+            var currentDealerId = User.FindFirst("db_id")?.Value;
 
-                if (string.IsNullOrEmpty(currentDealerId))
-                    return Unauthorized(new { message = "Dealer identity not found in token." });
+            if (string.IsNullOrEmpty(currentDealerId))
+                return Unauthorized(new { message = "Dealer identity not found in token." });
 
-                // Fetch customers where AddedByDealer matches the ID from the token
-                var customers = await _context.Customers
-                    .Where(c => c.AddedByDealer == currentDealerId)
-                    .OrderByDescending(c => c.PurchaseDate)
-                    .ToListAsync();
+            // Fetch customers where AddedByDealer matches the ID from the token
+            // Middleware will handle potential database connection errors automatically
+            var customers = await _context.Customers
+                .Where(c => c.AddedByDealer == currentDealerId)
+                .OrderByDescending(c => c.PurchaseDate)
+                .ToListAsync();
 
-                return Ok(customers);
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, new { message = "Error fetching customers", error = ex.Message });
-            }
+            return Ok(customers);
         }
     }
 }

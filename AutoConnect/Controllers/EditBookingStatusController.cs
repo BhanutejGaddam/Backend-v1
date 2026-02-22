@@ -17,28 +17,23 @@ namespace UserAuthApi.Controllers
             _context = context;
         }
 
-        // PUT: api/BookingStatus/update-status/101
+        // PUT: api/EditBookingStatus/update-status/101
         [HttpPut("update-status/{id}")]
         public async Task<IActionResult> UpdateStatus(long id, [FromBody] StatusUpdateDto dto)
         {
-            try
-            {
-                var booking = await _context.Bookings.FindAsync(id);
+            // FindAsync will return null if the ID doesn't exist
+            var booking = await _context.Bookings.FindAsync(id);
 
-                if (booking == null)
-                    return NotFound(new { message = "Booking not found in database." });
+            if (booking == null)
+                return NotFound(new { message = "Booking not found in database." });
 
-                // Update the status column
-                booking.BookingStatus = dto.NewStatus;
+            // Update the status column
+            booking.BookingStatus = dto.NewStatus;
 
-                await _context.SaveChangesAsync();
+            // Save changes - Middleware catches potential DB errors
+            await _context.SaveChangesAsync();
 
-                return Ok(new { message = "Status updated successfully" });
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, new { message = "Server error during update", error = ex.Message });
-            }
+            return Ok(new { message = "Status updated successfully" });
         }
     }
 

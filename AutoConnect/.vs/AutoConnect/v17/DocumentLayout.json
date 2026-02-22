@@ -3,132 +3,140 @@
   "WorkspaceRootPath": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\controllers\\addcustomercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:controllers\\addcustomercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\controllers\\trackingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|solutionrelative:controllers\\trackingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\controllers\\servicehistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|solutionrelative:controllers\\servicehistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|solutionrelative:controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\controllers\\historycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|solutionrelative:controllers\\historycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\controllers\\editbookingstatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|solutionrelative:controllers\\editbookingstatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\controllers\\dealerinventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|solutionrelative:controllers\\dealerinventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\controllers\\dealerdashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|solutionrelative:controllers\\dealerdashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\controllers\\dealercustomerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|solutionrelative:controllers\\dealercustomerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\controllers\\dealercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|solutionrelative:controllers\\dealercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|solutionrelative:controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\controllers\\analyticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|solutionrelative:controllers\\analyticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\controllers\\adddealercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|solutionrelative:controllers\\adddealercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\controllers\\addcustomercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|solutionrelative:controllers\\addcustomercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|solutionrelative:middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\autoconnect.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|solutionrelative:autoconnect.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\controllers\\analyticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:controllers\\analyticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\models\\errordetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|solutionrelative:models\\errordetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\models\\adddealer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|solutionrelative:models\\adddealer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\controllers\\editbookingstatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:controllers\\editbookingstatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|solutionrelative:models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\models\\adddealer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:models\\adddealer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|solutionrelative:models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\migrations\\20260207100821_addbookingtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:migrations\\20260207100821_addbookingtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\migrations\\20260207100821_addbookingtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|solutionrelative:migrations\\20260207100821_addbookingtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\migrations\\20260207053447_updatetoautoconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:migrations\\20260207053447_updatetoautoconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\migrations\\20260206115804_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|solutionrelative:migrations\\20260206115804_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\migrations\\20260206115804_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:migrations\\20260206115804_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\migrations\\20260207053447_updatetoautoconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|solutionrelative:migrations\\20260207053447_updatetoautoconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\controllers\\historycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:controllers\\historycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\models\\vehicleinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|solutionrelative:models\\vehicleinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\controllers\\adddealercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:controllers\\adddealercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\models\\vehiclesalesinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|solutionrelative:models\\vehiclesalesinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\models\\customerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|solutionrelative:models\\customerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\controllers\\trackingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:controllers\\trackingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\models\\warrantycompliance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|solutionrelative:models\\warrantycompliance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\controllers\\servicehistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:controllers\\servicehistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\models\\complianceinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|solutionrelative:models\\complianceinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\controllers\\dealerinventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:controllers\\dealerinventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\controllers\\dealerdashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:controllers\\dealerdashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\controllers\\dealercustomerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:controllers\\dealercustomerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\controllers\\dealercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:controllers\\dealercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\models\\vehicleinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:models\\vehicleinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\models\\vehiclesalesinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:models\\vehiclesalesinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\models\\customerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:models\\customerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\models\\warrantycompliance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:models\\warrantycompliance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\models\\complianceinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:models\\complianceinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\models\\sparepartinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|UserAuthApi.csproj|solutionrelative:models\\sparepartinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|c:\\users\\2460695\\source\\project backend\\backend-v1\\autoconnect\\models\\sparepartinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA88F1A-ACAD-41DF-9554-B0EBD2D99CC2}|AutoConnect.csproj|solutionrelative:models\\sparepartinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -138,66 +146,249 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HistoryController.cs",
+              "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\HistoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HistoryController.cs",
+              "ToolTip": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\HistoryController.cs",
+              "RelativeToolTip": "Controllers\\HistoryController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAQwCUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T15:20:25.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InventoryController.cs",
+              "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\InventoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\InventoryController.cs",
+              "ToolTip": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\InventoryController.cs",
+              "RelativeToolTip": "Controllers\\InventoryController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwCgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T09:14:49.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServiceHistoryController.cs",
+              "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\ServiceHistoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ServiceHistoryController.cs",
+              "ToolTip": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\ServiceHistoryController.cs",
+              "RelativeToolTip": "Controllers\\ServiceHistoryController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwC0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T12:12:44.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TrackingController.cs",
+              "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\TrackingController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TrackingController.cs",
+              "ToolTip": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\TrackingController.cs",
+              "RelativeToolTip": "Controllers\\TrackingController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T15:13:16.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T11:34:03.052Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AddCustomerController.cs",
-              "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\AddCustomerController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AddCustomerController.cs",
-              "ToolTip": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\AddCustomerController.cs",
-              "RelativeToolTip": "Controllers\\AddCustomerController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "EditBookingStatusController.cs",
+              "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\EditBookingStatusController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EditBookingStatusController.cs",
+              "ToolTip": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\EditBookingStatusController.cs",
+              "RelativeToolTip": "Controllers\\EditBookingStatusController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAYwCsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-09T05:50:34.447Z",
+              "WhenOpened": "2026-02-15T07:39:14.008Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAsAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "DealerInventoryController.cs",
+              "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\DealerInventoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DealerInventoryController.cs",
+              "ToolTip": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\DealerInventoryController.cs",
+              "RelativeToolTip": "Controllers\\DealerInventoryController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAwFYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T11:51:37.097Z",
+              "WhenOpened": "2026-02-17T11:33:25.97Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
+              "Title": "DealerDashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\DealerDashboardController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DealerDashboardController.cs",
+              "ToolTip": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\DealerDashboardController.cs",
+              "RelativeToolTip": "Controllers\\DealerDashboardController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T13:38:58.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DealerCustomersController.cs",
+              "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\DealerCustomersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DealerCustomersController.cs",
+              "ToolTip": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\DealerCustomersController.cs",
+              "RelativeToolTip": "Controllers\\DealerCustomersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T09:23:14.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DealerController.cs",
+              "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\DealerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DealerController.cs",
+              "ToolTip": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\DealerController.cs",
+              "RelativeToolTip": "Controllers\\DealerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T04:14:03.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BookingsController.cs",
+              "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\BookingsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BookingsController.cs",
+              "ToolTip": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\BookingsController.cs",
+              "RelativeToolTip": "Controllers\\BookingsController.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAQwGEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T13:50:25.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwCkAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAkwCAAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-14T13:29:35.172Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EditBookingStatusController.cs",
-              "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\EditBookingStatusController.cs",
-              "RelativeDocumentMoniker": "Controllers\\EditBookingStatusController.cs",
-              "ToolTip": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\EditBookingStatusController.cs",
-              "RelativeToolTip": "Controllers\\EditBookingStatusController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAANAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "AnalyticsController.cs",
+              "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\AnalyticsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AnalyticsController.cs",
+              "ToolTip": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\AnalyticsController.cs",
+              "RelativeToolTip": "Controllers\\AnalyticsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-15T07:39:14.008Z"
+              "WhenOpened": "2026-02-15T10:27:10.332Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
+              "Title": "AddDealerController.cs",
+              "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\AddDealerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AddDealerController.cs",
+              "ToolTip": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\AddDealerController.cs",
+              "RelativeToolTip": "Controllers\\AddDealerController.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAgwFoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T13:29:33.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AddCustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\AddCustomerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AddCustomerController.cs",
+              "ToolTip": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\AddCustomerController.cs",
+              "RelativeToolTip": "Controllers\\AddCustomerController.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAQwIYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T05:50:34.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAE0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T11:51:37.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "Middleware\\ExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "Middleware\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T09:29:03.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ErrorDetails.cs",
+              "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Models\\ErrorDetails.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorDetails.cs",
+              "ToolTip": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Models\\ErrorDetails.cs",
+              "RelativeToolTip": "Models\\ErrorDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T09:27:21.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "AddDealer.cs",
               "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Models\\AddDealer.cs",
               "RelativeDocumentMoniker": "Models\\AddDealer.cs",
@@ -209,8 +400,8 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserAuthApi.csproj",
+              "DocumentIndex": 17,
+              "Title": "AutoConnect.csproj",
               "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\AutoConnect.csproj",
               "RelativeDocumentMoniker": "AutoConnect.csproj",
               "ToolTip": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\AutoConnect.csproj",
@@ -222,7 +413,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 20,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -230,24 +421,11 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-02-06T11:42:14.368Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-06T11:42:14.368Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AnalyticsController.cs",
-              "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\AnalyticsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AnalyticsController.cs",
-              "ToolTip": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\AnalyticsController.cs",
-              "RelativeToolTip": "Controllers\\AnalyticsController.cs",
-              "ViewState": "AgIAAGsAAAAAAAAAAAAgwA4AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-15T10:27:10.332Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 21,
               "Title": "LoginRequest.cs",
               "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Models\\LoginRequest.cs",
               "RelativeDocumentMoniker": "Models\\LoginRequest.cs",
@@ -259,7 +437,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 22,
               "Title": "Booking.cs",
               "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Models\\Booking.cs",
               "RelativeDocumentMoniker": "Models\\Booking.cs",
@@ -271,7 +449,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 23,
               "Title": "20260207100821_AddBookingTable.cs",
               "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Migrations\\20260207100821_AddBookingTable.cs",
               "RelativeDocumentMoniker": "Migrations\\20260207100821_AddBookingTable.cs",
@@ -283,7 +461,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 24,
               "Title": "20260206115804_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Migrations\\20260206115804_InitialCreate.cs",
               "RelativeDocumentMoniker": "Migrations\\20260206115804_InitialCreate.cs",
@@ -295,7 +473,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 25,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
@@ -307,7 +485,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 26,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -319,7 +497,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 27,
               "Title": "20260207053447_UpdateToAutoConnect.cs",
               "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Migrations\\20260207053447_UpdateToAutoConnect.cs",
               "RelativeDocumentMoniker": "Migrations\\20260207053447_UpdateToAutoConnect.cs",
@@ -331,139 +509,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "InventoryController.cs",
-              "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\InventoryController.cs",
-              "RelativeDocumentMoniker": "Controllers\\InventoryController.cs",
-              "ToolTip": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\InventoryController.cs",
-              "RelativeToolTip": "Controllers\\InventoryController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-08T09:14:49.006Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T11:34:03.052Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "AddDealerController.cs",
-              "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\AddDealerController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AddDealerController.cs",
-              "ToolTip": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\AddDealerController.cs",
-              "RelativeToolTip": "Controllers\\AddDealerController.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAgwA4AAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-14T13:29:33.708Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "HistoryController.cs",
-              "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\HistoryController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HistoryController.cs",
-              "ToolTip": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\HistoryController.cs",
-              "RelativeToolTip": "Controllers\\HistoryController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-14T15:20:25.662Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ServiceHistoryController.cs",
-              "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\ServiceHistoryController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ServiceHistoryController.cs",
-              "ToolTip": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\ServiceHistoryController.cs",
-              "RelativeToolTip": "Controllers\\ServiceHistoryController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAYwA0AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-13T12:12:44.535Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "TrackingController.cs",
-              "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\TrackingController.cs",
-              "RelativeDocumentMoniker": "Controllers\\TrackingController.cs",
-              "ToolTip": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\TrackingController.cs",
-              "RelativeToolTip": "Controllers\\TrackingController.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAACQAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-14T15:13:16.722Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "DealerInventoryController.cs",
-              "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\DealerInventoryController.cs",
-              "RelativeDocumentMoniker": "Controllers\\DealerInventoryController.cs",
-              "ToolTip": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\DealerInventoryController.cs",
-              "RelativeToolTip": "Controllers\\DealerInventoryController.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAkwA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T11:33:25.97Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "DealerCustomersController.cs",
-              "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\DealerCustomersController.cs",
-              "RelativeDocumentMoniker": "Controllers\\DealerCustomersController.cs",
-              "ToolTip": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\DealerCustomersController.cs",
-              "RelativeToolTip": "Controllers\\DealerCustomersController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwBEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-13T09:23:14.454Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "DealerController.cs",
-              "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\DealerController.cs",
-              "RelativeDocumentMoniker": "Controllers\\DealerController.cs",
-              "ToolTip": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\DealerController.cs",
-              "RelativeToolTip": "Controllers\\DealerController.cs",
-              "ViewState": "AgIAAGUAAAAAAAAAAAAUwBAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-16T04:14:03.759Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "BookingsController.cs",
-              "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\BookingsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\BookingsController.cs",
-              "ToolTip": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\BookingsController.cs",
-              "RelativeToolTip": "Controllers\\BookingsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-14T13:50:25.007Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "DealerDashboardController.cs",
-              "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\DealerDashboardController.cs",
-              "RelativeDocumentMoniker": "Controllers\\DealerDashboardController.cs",
-              "ToolTip": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Controllers\\DealerDashboardController.cs",
-              "RelativeToolTip": "Controllers\\DealerDashboardController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwAwAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-13T13:38:58.75Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "VehicleInventory.cs",
               "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Models\\VehicleInventory.cs",
               "RelativeDocumentMoniker": "Models\\VehicleInventory.cs",
@@ -475,7 +521,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "VehicleSalesInfo.cs",
               "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Models\\VehicleSalesInfo.cs",
               "RelativeDocumentMoniker": "Models\\VehicleSalesInfo.cs",
@@ -487,7 +533,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "CustomerInfo.cs",
               "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Models\\CustomerInfo.cs",
               "RelativeDocumentMoniker": "Models\\CustomerInfo.cs",
@@ -499,7 +545,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "WarrantyCompliance.cs",
               "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Models\\WarrantyCompliance.cs",
               "RelativeDocumentMoniker": "Models\\WarrantyCompliance.cs",
@@ -511,7 +557,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "ComplianceInformation.cs",
               "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Models\\ComplianceInformation.cs",
               "RelativeDocumentMoniker": "Models\\ComplianceInformation.cs",
@@ -523,7 +569,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "SparePartInventory.cs",
               "DocumentMoniker": "C:\\Users\\2460695\\source\\Project backend\\Backend-v1\\AutoConnect\\Models\\SparePartInventory.cs",
               "RelativeDocumentMoniker": "Models\\SparePartInventory.cs",
