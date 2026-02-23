@@ -14,7 +14,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 // 2. JWT Configuration
 var jwtKey = builder.Configuration["Jwt:Key"];
 var jwtIssuer = builder.Configuration["Jwt:Issuer"];
-var jwtAudience = builder.Configuration["Jwt:Audience"];
+var jwtAudience = builder.Configuration["Jwt:Audience"];    
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
