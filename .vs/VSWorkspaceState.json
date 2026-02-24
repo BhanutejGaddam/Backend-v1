@@ -1,9 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\UserAuthApi",
-    "\\UserAuthApi\\Models"
+    "\\AutoConnect"
   ],
-  "SelectedNode": "\\UserAuthApi\\Models\\VehicleSalesInfo.cs",
+  "SelectedNode": "\\AutoConnect\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

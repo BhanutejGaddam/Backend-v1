@@ -1,0 +1,44 @@
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using UserAuthApi.Data;
+using UserAuthApi.Models;
+using System.Security.Claims;
+
+namespace UserAuthApi.Controllers
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    [Authorize(Roles = "dealer")]
+    public class DealerDashboardController : ControllerBase
+    {
+        private readonly AppDbContext _context;
+
+        public DealerDashboardController(AppDbContext context)
+        {
+            _context = context;
+        }
+
+        [HttpGet("today-bookings")]
+        public async Task<IActionResult> GetTodayBookings()
+        {
+            // 1. Get the Dealer ID from the authenticated token
+            var currentDealerId = User.FindFirst("db_id")?.Value;
+
+            if (string.IsNullOrEmpty(currentDealerId))
+                return Unauthorized(new { message = "Dealer ID not found in token." });
+
+            // 2. Get today's date (at midnight)
+            var today = DateTime.Today;
+
+            // 3. Query bookings for this dealer where the Slot is today
+            // Any database-level exceptions will now be caught by your Global Exception Middleware
+            var bookings = await _context.Bookings
+                .Where(b => b.Selected_Dealer_Id == currentDealerId)
+                .OrderBy(b => b.Slot)
+                .ToListAsync();
+
+            return Ok(bookings);
+        }
+    }
+}
